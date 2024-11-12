@@ -8,7 +8,9 @@ import { Loginuser } from '../../models/loginuser';
   providedIn: 'root',
 })
 export class LoginService {
-  private apiUrl = 'http://localhost:5204/api/Account';
+ // private apiUrl = 'http://localhost:5204/api/Account';
+  private apiUrl = 'https://2beapi.runasp.net/api/Account';
+
   constructor(private httpclient: HttpClient) {}
   UserRegister(user: IUser): Observable<any> {
     const headers = new HttpHeaders({
