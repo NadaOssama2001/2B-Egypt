@@ -7,8 +7,10 @@ import { IOrder } from '../../models/iorder';
   providedIn: 'root',
 })
 export class OrderService {
-  private apiUrl = 'http://localhost:5204/api/Order/CreateOrder';
-  private baseUrl = 'http://localhost:5204/api/Order';
+  // private apiUrl = 'http://localhost:5204/api/Order/CreateOrder';
+  // private baseUrl = 'http://localhost:5204/api/Order';
+  private apiUrl = 'https://2beapi.runasp.net/api/Order/CreateOrder';
+  private baseUrl = 'https://2beapi.runasp.net/api/Order';
 
   constructor(private httpclient: HttpClient) {}
 
