@@ -11,10 +11,10 @@ export class ProductService {
     throw new Error('Method not implemented.');
   }
   productColors: string[] = [];
-  private apiUrl = 'http://localhost:5204/api/products';
-  private imgmvcurl = 'http://localhost:5269/';
-  // private apiUrl = 'http://2b-sohag.runasp.net/api/products';
-  // private imgmvcurl = 'http://2begypt.runasp.net/';
+  //private apiUrl = 'http://localhost:5204/api/products';
+  //private imgmvcurl = 'http://localhost:5269/';
+   private apiUrl = 'http://2b-sohag.runasp.net/api/products';
+   private imgmvcurl = 'http://2begypt.runasp.net/';
   // private imgmvcurl = 'http://localhost:29510/';
   constructor(private httpclient: HttpClient) {}
 
