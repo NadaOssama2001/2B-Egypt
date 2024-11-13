@@ -7,7 +7,9 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ReviewServiceService {
-  private apiUrl = 'http://localhost:5204/api/Review';
+  // private apiUrl = 'http://localhost:5204/api/Review';
+  private apiUrl = 'https://2beapi.runasp.net/api/Review';
+
   constructor(private httpclient: HttpClient) 
   {
 
